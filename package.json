@@ -1,0 +1,12 @@
+{
+  "name": "wsltv",
+  "version": "1.0.0",
+  "description": "online wsltv project",
+  "main": "index.js",
+  "repository": "git@github.com:sdutwsl/wsltv.git",
+  "author": "sdutwsl <wanghuilongsd@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webtorrent": "^0.112.0"
+  }
+}
