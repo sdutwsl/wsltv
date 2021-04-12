@@ -17,8 +17,8 @@ for tr in trs:
     td_title=tr.find("td",{"class":"title"})
     if td_title is not None:
         maga=tr.find("a",{"class":"download-arrow arrow-magnet"})
-        s+="🆒"+td_title.text.strip()+"🆒"
-        s+="🌧"+maga["href"]+"🌧"
+        s+="🆒"+"".join(td_title.text.split())+"🆒\n"
+        s+="🌧"+maga["href"]+"🌧\n"
 f=open("tele/bitconn.txt","wb")
 f.write(s.encode('utf-8'))
 f.close()
